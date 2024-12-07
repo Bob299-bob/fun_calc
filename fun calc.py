@@ -1,16 +1,16 @@
-name = input('Enter your Name \n: ')
+name = input('Enter your Name \n: ')                           #for taking input     
 print("Hello " + name, " \n ThIS IS OUR FUN SHOP")
-print('I AM MANAGER HERE, \n FIRST WE CHECK HOW OLD ARE YOU ! ')
-s1 = input('ENTER YOUR BIRTH YEAR \n: ')
+print('I AM MANAGER HERE, \n FIRST WE CHECK HOW OLD ARE YOU ! ')                                       #program definition
+s1 = input('ENTER YOUR BIRTH YEAR \n: ')                                #for taking input
 age = 2024 - int(s1)
-print('Yeah We Got It Dear '+name, 'Your Current Age Is ')
+print('Yeah We Got It Dear '+name, 'Your Current Age Is ')                            
 print(age)
 print('So Dear '+name, '\n How Can I Entertain You \n  ...... \n should we play calculator tricks !! ')
 s2=input('Please press ENTER to start: ')
 print("Here is your calculator")
 print("So What Operation Will You Perform \n Here Is A List \n1. Addition \n2. Substraction \n3. Multiplication \n4. Divide \n5. Percentage")
 s3 = input('Please Select One Operation . ')
-if(int(s3)==1):
+if(int(s3)==1):                                                  #conditional statement 
      a=input('Enter 1st no. ')
      b=input('Enter 2nd no. ')
      c=int(a)+int(b)
@@ -53,5 +53,5 @@ elif(int(s3)==6):
           a += b
      print(a)
 else:
-    print("THANKYOU " +name)
+    print("THANKYOU " +name)                          
 
